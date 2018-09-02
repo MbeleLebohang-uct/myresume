@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+   <!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<%= favicon_link_tag 'favicon/favicon.ico' %>
+		<!-- Author Meta -->
+		<meta name="author" content="Colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+    <title>Mbele Lebohang | Resume</title>
+
+    <!-- Site fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   
+  </head>
+
+  <body>
+  <!-- Menu Partials -->
+  <%= render 'layouts/navigation' %>
+  
+   <%= yield %>
+  
+  <!-- Footer Partials -->
+  <%= render 'layouts/footer' %>
+    
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </body>
+</html>
