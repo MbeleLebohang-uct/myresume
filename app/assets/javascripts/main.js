@@ -7,7 +7,7 @@ $(document).ready(function(){
 	  $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 	});
 
-	var colors = [['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A'], ['#181115', '#30222A']];
+	var colors = [['#0515a8', '#05003B'], ['#0515a8', '#05003B'], ['#0515a8', '#05003B'], ['#0515a8', '#05003B']];
 	for (var i = 1; i <= 5; i++) {
 		var child = document.getElementById('circles-' + i),
 			percentage = 50 + (i * 10);

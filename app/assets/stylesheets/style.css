@@ -29,7 +29,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 }
 /*------ HEADER STARTS---------*/
 .header{
-	background:rgba(0, 0, 0, 0.24);
+	background: rgba(2, 42, 76, 0.79);
 }
 /*------ CONTAINER STARTS---------*/
 .container{
@@ -41,7 +41,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	margin:0.5em 0 0.5em 0em;
 }
 .logo a{
-	color:#B5A9B7;
+	color:#fff;
 	font-size:1.9em;
 }
 .logo a:hover{
@@ -58,7 +58,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	margin:1em 1.5em 0 0;
 }
 .nav ul li a{
-	color:#B5A9B7;
+	color:#fff;
 }
 .nav ul li a:hover{
 	color:gray;
@@ -83,22 +83,22 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	float:right;
 }
 .bannerhead h2{
-	color: #773960;
+	color: #032a4d;
 	margin:0;
 	padding:0;
 }
 .bannerhead h2 span{
-	color:#A900BF;
+	color:#0666c4;
 	font-weight:bolder;
 	font-size:1.2em;
 }
 .bannerhead h3{
-	color:#773960;
+	color:#032a4d;
 	font-weight:bolder;
     font-size:2.5em;
 }
 .bannerhead p{
-    color:#A900BF;
+    color:#0666c4;
 }
 a.downarrow  span{
  	height:48px;
@@ -125,7 +125,7 @@ a.downarrow{
 .about{
 	color:white;
 	text-align:center;
-	background:#281D24;
+	background:#050c4e;
 }
 .header-section h2{
 	color: #C6C3C5;
@@ -184,7 +184,7 @@ a.arrow{
 /*------Skill-Section STARTS---------*/
 .skills{
 	min-height:600px;
-	background:#20191B;
+	background:#020062;
 	position:relative;
 }
 .skill-section h2{
@@ -292,14 +292,15 @@ a.portdown{
 	}
 /*------FOOTER STARTS---------*/
 .footer{
-	background: image_url('footerbg.jpg');
+	background: image_url('footerbgg.png');
 	position: relative;
 	min-height: 567px;
 	background-size: cover;
 	position:relative;
 }
+
 .contact-section h2{
-	color:#D2D1D1;
+	color:#fff;
 	font-weight:300;
 	font-size:2.5em;
 	padding-top:1em;
@@ -329,7 +330,7 @@ a.portdown{
 	opacity:0.8;
 }
 .footer-left p{
-	color:#B5A9B7;
+	color:#fff;
 	width:80%;
 	margin:2em 0 0 0em;
 	line-height:2em;
@@ -339,7 +340,7 @@ a.portdown{
 	margin-top: 1.3em;
 }
 .footer-right input[type="text"],.footer-right textarea{
-	background:#170F12;
+	background:#022A4C;
 	color:#B5A9B7;
 	padding: 1em 0.8em;
 	width:75%;
